@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsCables" targetNamespace="http://tempuri.org/dsCables.xsd" xmlns:mstns="http://tempuri.org/dsCables.xsd" xmlns="http://tempuri.org/dsCables.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsCables" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsCables" msprop:Generator_UserDSName="dsCables">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtCables" msprop:Generator_TableClassName="dtCablesDataTable" msprop:Generator_TableVarName="tabledtCables" msprop:Generator_RowChangedName="dtCablesRowChanged" msprop:Generator_TablePropName="dtCables" msprop:Generator_RowDeletingName="dtCablesRowDeleting" msprop:Generator_RowChangingName="dtCablesRowChanging" msprop:Generator_RowEvHandlerName="dtCablesRowChangeEventHandler" msprop:Generator_RowDeletedName="dtCablesRowDeleted" msprop:Generator_RowClassName="dtCablesRow" msprop:Generator_UserTableName="dtCables" msprop:Generator_RowEvArgName="dtCablesRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Circuit" msprop:Generator_ColumnVarNameInTable="columnCircuit" msprop:Generator_ColumnPropNameInRow="Circuit" msprop:Generator_ColumnPropNameInTable="CircuitColumn" msprop:Generator_UserColumnName="Circuit" type="xs:string" minOccurs="0" />
+              <xs:element name="WID" msprop:Generator_ColumnVarNameInTable="columnWID" msprop:Generator_ColumnPropNameInRow="WID" msprop:Generator_ColumnPropNameInTable="WIDColumn" msprop:Generator_UserColumnName="WID" type="xs:int" minOccurs="0" />
+              <xs:element name="CP" msprop:Generator_ColumnVarNameInTable="columnCP" msprop:Generator_ColumnPropNameInRow="CP" msprop:Generator_ColumnPropNameInTable="CPColumn" msprop:Generator_UserColumnName="CP" type="xs:string" minOccurs="0" />
+              <xs:element name="Wire" msprop:Generator_ColumnVarNameInTable="columnWire" msprop:Generator_ColumnPropNameInRow="Wire" msprop:Generator_ColumnPropNameInTable="WireColumn" msprop:Generator_UserColumnName="Wire" type="xs:string" minOccurs="0" />
+              <xs:element name="Color" msprop:Generator_ColumnVarNameInTable="columnColor" msprop:Generator_ColumnPropNameInRow="Color" msprop:Generator_ColumnPropNameInTable="ColorColumn" msprop:Generator_UserColumnName="Color" type="xs:string" minOccurs="0" />
+              <xs:element name="JoinA" msprop:Generator_ColumnVarNameInTable="columnJoinA" msprop:Generator_ColumnPropNameInRow="JoinA" msprop:Generator_ColumnPropNameInTable="JoinAColumn" msprop:Generator_UserColumnName="JoinA" type="xs:string" minOccurs="0" />
+              <xs:element name="JoinB" msprop:Generator_ColumnVarNameInTable="columnJoinB" msprop:Generator_ColumnPropNameInRow="JoinB" msprop:Generator_ColumnPropNameInTable="JoinBColumn" msprop:Generator_UserColumnName="JoinB" type="xs:string" minOccurs="0" />
+              <xs:element name="WIP" msprop:Generator_ColumnVarNameInTable="columnWIP" msprop:Generator_ColumnPropNameInRow="WIP" msprop:Generator_ColumnPropNameInTable="WIPColumn" msprop:Generator_UserColumnName="WIP" type="xs:string" minOccurs="0" />
+              <xs:element name="AU" msprop:Generator_ColumnVarNameInTable="columnAU" msprop:Generator_ColumnPropNameInRow="AU" msprop:Generator_ColumnPropNameInTable="AUColumn" msprop:Generator_UserColumnName="AU" type="xs:long" minOccurs="0" />
+              <xs:element name="Rev" msprop:Generator_ColumnVarNameInTable="columnRev" msprop:Generator_ColumnPropNameInRow="Rev" msprop:Generator_ColumnPropNameInTable="RevColumn" msprop:Generator_UserColumnName="Rev" type="xs:string" minOccurs="0" />
+              <xs:element name="Qty" msprop:Generator_ColumnVarNameInTable="columnQty" msprop:Generator_ColumnPropNameInRow="Qty" msprop:Generator_ColumnPropNameInTable="QtyColumn" msprop:Generator_UserColumnName="Qty" type="xs:int" minOccurs="0" />
+              <xs:element name="Notes" msprop:Generator_ColumnVarNameInTable="columnNotes" msprop:Generator_ColumnPropNameInRow="Notes" msprop:Generator_ColumnPropNameInTable="NotesColumn" msprop:Generator_UserColumnName="Notes" type="xs:string" minOccurs="0" />
+              <xs:element name="KindOfAU" msprop:Generator_ColumnVarNameInTable="columnKindOfAU" msprop:Generator_ColumnPropNameInRow="KindOfAU" msprop:Generator_ColumnPropNameInTable="KindOfAUColumn" msprop:Generator_UserColumnName="KindOfAU" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
